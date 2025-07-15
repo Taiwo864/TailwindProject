@@ -12,32 +12,31 @@
     <nav class="top sticky top-0 bg-white h-17 md:sticky md-top-0 md:h-17 md:overflow-y-hidden">
         <div class="luxes flex items-center justify-between">
             <div class="flex items-center"><img src="images/luxeshop.png" class="w-15"><p class="font-bold">Luxeshop</p></div>
-            <div class="email flex m-5">
+            <div class="email flex items-center m-5">
                 <img src="icons/envelope-svgrepo-com.svg" class="w-5 m-3">
                 <img src="icons/bell.svg" class="w-5">
             </div>
         </div>
     </nav>
     <div class="search flex justify-between m-5 shadow-md p-3 rounded-md">
-        <div class="flex w-full"><img src="icons/search.svg" class="w-5 m-2">
-       <input type="text" 
-       placeholder="find your neeeded..." 
-       class="block placeholder:text-gray-500 w-full md:w-64 border-0 outline-none focus:outline-none" />
+        <div class="flex w-full">
+            <img src="icons/search.svg" class="w-5 m-2">
+            <input type="text" placeholder="find your neeeded..." class="block placeholder:text-gray-500 w-full md:w-64 border-0 outline-none focus:outline-none" />
         </div>
-        <img src="icons/filter-svgrepo-com.svg" class="w-5">
+        <img src="icons/filter-svgrepo-com.svg" class="w-5 ml-2">
     </div>
     <div class="location flex items-center m-3">
         <img src="icons/location-dot.svg" class="w-4 m-2"><p class="text-xs">Delivered to <span class="font-bold">JI. Rose No. 123 Block A, Cipete Sub-District, Ci...</span></p>
     </div>
-    <div class="images flex flex-wrap items-center justify-center max-md:grid max-md:grid-cols-2">
-        <div class="items-center justify-center flex flex-row"><img src="images/electronics.png" class="text-xs w-10 bg-white rounded-full shadow-md p-1 m-"><p class="text-xs m-3 mr-5">Electronic</p></div>
-        <div class="items-center justify-center flex flex-row"><img src="images/foods.png" class="text-xs w-10 bg-white rounded-full shadow-md p-1 m-"><p class="text-xs m-3 mr-5">Food & drinks</p></div>
-        <div class="items-center justify-center flex flex-row"><img src="images/accesories.png" class="text-xs w-10 bg-white rounded-full shadow-md p-1 m-"><p class="text-xs m-3 mr-5">Accesories</p></div>
-        <div class="items-center justify-center flex flex-row"><img src="images/beauty.png" class="text-xs size-13 bg-white rounded-full shadow-md p-1 m-"><p class="text-xs m-3 mr-5">Beauty</p></div>
-        <div class="items-center justify-center flex flex-row"><img src="images/furniture.png" class="text-xs w-10 bg-white rounded-full shadow-md p-1 m-"><p class="text-xs m-3 mr-5">Furniture</p></div>
-        <div class="items-center justify-center flex flex-row"><img src="images/fashios.png" class="text-xs size-13 bg-white rounded-full shadow-md p-1 m-"><p class="text-xs m-3 mr-5">Fashion</p></div>
-        <div class="items-center justify-center flex flex-row"><img src="images/health.png" class="text-xs w-10 bg-white rounded-full shadow-md p-1 m-"><p class="text-xs m-3 mr-5">Health</p></div>
-        <div class="items-center justify-center flex flex-row"><img src="images/stationery.png" class="text-xs w-10 bg-white rounded-full shadow-md p-1 m-"><p class="text-xs m-3 mr-5">Stationery</p></div>
+    <div class="images flex flex-wrap items-center justify-center max-md:flex">
+        <div class="items-center justify-center flex flex-col"><img src="images/electronics.png" class="text-xs w-10 bg-white rounded-full shadow-md p-1 m-"><p class="text-xs m-3 mr-5">Electronic</p></div>
+        <div class="items-center justify-center flex flex-col"><img src="images/foods.png" class="text-xs w-10 bg-white rounded-full shadow-md p-1 m-"><p class="text-xs m-3 mr-5">Food & drinks</p></div>
+        <div class="items-center justify-center flex flex-col"><img src="images/accesories.png" class="text-xs w-10 bg-white rounded-full shadow-md p-1 m-"><p class="text-xs m-3 mr-5">Accesories</p></div>
+        <div class="items-center justify-center flex flex-col"><img src="images/beauty.png" class="text-xs size-13 bg-white rounded-full shadow-md p-1 m-"><p class="text-xs m-3 mr-5">Beauty</p></div>
+        <div class="items-center justify-center flex flex-col"><img src="images/furniture.png" class="text-xs w-10 bg-white rounded-full shadow-md p-1 m-"><p class="text-xs m-3 mr-5">Furniture</p></div>
+        <div class="items-center justify-center flex flex-col"><img src="images/fashios.png" class="text-xs size-13 bg-white rounded-full shadow-md p-1 m-"><p class="text-xs m-3 mr-5">Fashion</p></div>
+        <div class="items-center justify-center flex flex-col"><img src="images/health.png" class="text-xs w-10 bg-white rounded-full shadow-md p-1 m-"><p class="text-xs m-3 mr-5">Health</p></div>
+        <div class="items-center justify-center flex flex-col"><img src="images/stationery.png" class="text-xs w-10 bg-white rounded-full shadow-md p-1 m-"><p class="text-xs m-3 mr-5">Stationery</p></div>
     </div><br><br>
     <div class="flex items-center justify-center"><img src="images/img9.jpg" width=500 class="m-3 max-md:w-94"></div>
     <div class="see-all flex m-5 justify-between">
@@ -45,12 +44,12 @@
         <a href="" class="text-red-500 text-xsm font-bold">See all</a>
     </div>
     <div class="devices m-3 grid grid-cols-3 gap-8 max-md:grid-cols-1 max-md:m-auto">
-        <div class="tab m-3 w-55 h-45 bg-white shadow-md p-5 rounded-xl w-24 mx-auto md:w-55 md:h-45"><img src="images/tab1.png" class="w-24 mx-auto"><p class="text-gray-500 text-xs mt-2 text-center">Ipad Pro 6th Generation 11 inch</p></div>
+        <div class="tab m-3 w-55 h-45 bg-white shadow-md p-5 rounded-xl w-24 mx-auto md:w-55 md:h-45"><a href="product.html"></a><img src="images/tab1.png" class="w-24 mx-auto"><p class="text-gray-500 text-xs mt-2 text-center">Ipad Pro 6th Generation 11 inch</p></a></div>
         <div class="tab m-3 w-55 h-45 bg-white shadow-md p-5 rounded-xl w-24 mx-auto"><img src="images/tab2.png" class="w-34 mx-auto"><p class="text-gray-500 text-xs text-center">Macbook Air M2 (2022) 13</p></div>
-        <div class="tab m-3 w-55 h-45 bg-white shadow-md p-5 rounded-xl w-24 mx-auto"><img src="images/shoe3.png" class="w-34 mx-auto"><p class="text-gray-500">Nike Dunk Low Fresh green tones with a clean white base. stylish, sporty and built for daily wear</p></div>
-        <div class="tab m-3 w-55 h-45 bg-white shadow-md p-5 rounded-xl w-24 mx-auto"><img src="images/shoe2.png" class="w-34 mx-auto"><p class="text-gray-500"></p></div>
-        <div class="tab m-3 w-55 h-45 bg-white shadow-md p-5 rounded-xl w-24 mx-auto"><img src="images/shoe1.png" class="w-34 mx-auto"><p class="text-gray-500"></p></div>
-        <div class="tab m-3 w-55 h-45 bg-white shadow-md p-5 rounded-xl w-24 mx-auto"><img src="images/earbud.png" class="w-24 mx-auto"><p class="text-gray-500"></p></div>
+        <div class="tab m-3 w-55 h-45 bg-white shadow-md p-4 rounded-xl w-24 mx-auto"><img src="images/shoe3.png" class="w-34 mx-auto"><p class="text-gray-500 text-xs text-center">Nike Dunk Low Fresh Green Glow.</p></div>
+        <div class="tab m-3 w-55 h-45 bg-white shadow-md p-4 rounded-xl w-24 mx-auto"><img src="images/shoe2.png" class="w-34 mx-auto"><p class="text-gray-500 text-xs text-center">Nike Dunk Low-Classic Blue.</p></div>
+        <div class="tab m-3 w-55 h-45 bg-white shadow-md p-4 rounded-xl w-24 mx-auto"><img src="images/shoe1.png" class="w-34 mx-auto"><p class="text-gray-500 text-xs text-center">Nike Dunk Low-Classic Pink Glow</p></div>
+        <div class="tab m-3 w-55 h-45 bg-white shadow-md p-5 rounded-xl w-24 mx-auto"><img src="images/earbud.png" class="w-24 mx-auto"><p class="text-gray-500 text-xs text-center">Apple Airpods Pro (2nd Gen).</p></div>
     </div>
     <nav class="bottom sticky bottom-0 bg-white h-13 p-2 m-3 md:sticky md:bottom-0">
         <div class="flex items-center justify-between">
