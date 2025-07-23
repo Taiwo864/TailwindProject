@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Transaction Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Sticky Top Nav -->
+  <nav class="sticky top-0 bg-white z-20 p-4 shadow flex justify-between items-center">
+    <div class="bg-white rounded-full shadow-md p-2"><a href="index.html"><img src="icons/arrow-left.svg" alt="first tab" class="w-4"></a></div>
+    <h1 class="text-lg font-bold">Transaction History</h1>
+    <img src="icons/user.svg" alt="User" class="w-6 h-6" />
+  </nav>
+
+  <!-- Transaction List -->
+  <div class="p-4 space-y-4 overflow-y-auto h-[calc(100vh-160px)]">
+    <!-- Item -->
+    <div class="bg-white p-4 rounded-lg shadow flex justify-between items-center">
+      <div>
+        <p class="font-medium">Nike Air Max</p>
+        <p class="text-sm text-gray-500">June 20, 2025</p>
+      </div>
+      <p class="font-bold text-green-600">- IDR 2.100.000</p>
+    </div>
+    <div class="bg-white p-4 rounded-lg shadow flex justify-between items-center">
+      <div>
+        <p class="font-medium">Top-up Balance</p>
+        <p class="text-sm text-gray-500">June 18, 2025</p>
+      </div>
+      <p class="font-bold text-blue-600">+ IDR 1.000.000</p>
+    </div>
+
+    <div class="bg-white p-4 rounded-lg shadow flex justify-between items-center">
+      <div>
+        <p class="font-medium">Apple Watch</p>
+        <p class="text-sm text-gray-500">June 12, 2025</p>
+      </div>
+      <p class="font-bold text-green-600">- IDR 15.999.000</p>
+    </div>
+<!-- Transaction Item 1 -->
+<div class="bg-white p-4 rounded-lg shadow flex items-center justify-between border-b py-4">
+  <div class="flex items-center space-x-4">
+    <img src="images/watch.png" alt="Product" class="w-16 h-16 rounded-md" />
+    <div>
+      <p class="font-semibold text-sm">Apple Watch Series 7</p>
+      <p class="text-gray-500 text-sm">Qty: 1</p>
+    </div>
+  </div>
+  <p class="font-bold text-sm">IDR 5.999.000</p>
+</div>
+
+<!-- Transaction Item 2 -->
+<div class="bg-white p-4 rounded-lg shadow flex items-center justify-between border-b py-4">
+  <div class="flex items-center space-x-4">
+    <img src="images/shoe1.png" alt="Product" class="w-16 h-16 rounded-md" />
+    <div>
+      <p class="font-semibold text-sm">Nike Air Max 270</p>
+      <p class="text-gray-500 text-sm">Qty: 2</p>
+    </div>
+  </div>
+  <p class="font-bold text-sm">IDR 3.200.000</p>
+</div>
+
+<!-- Transaction Item 3 -->
+<div class="bg-white p-4 rounded-lg shadow flex items-center justify-between border-b py-4">
+  <div class="flex items-center space-x-4">
+    <img src="images/cloth.png" alt="Product" class="w-16 h-16 rounded-md" />
+    <div>
+      <p class="font-semibold text-sm">Oversized T-shirt</p>
+      <p class="text-gray-500 text-sm">Qty: 3</p>
+    </div>
+  </div>
+  <p class="font-bold text-sm">IDR 600.000</p>
+</div>
+<!-- Transaction item 4 -->
+<div class="bg-white p-4 rounded-lg shadow flex items-center justify-between border-b py-4">
+  <div class="flex items-center space-x-4">
+    <img src="images/earbud.png" alt="Product" class="w-16 h-16 rounded-md" />
+    <div>
+      <p class="font-semibold text-sm">Samsung Galaxy Buds</p>
+      <p class="text-gray-500 text-sm">Qty: 1</p>
+    </div>
+  </div>
+  <p class="font-bold text-sm">IDR 1.599.000</p>
+</div>
+
+<!-- Transaction Item 5 -->
+<div class="bg-white p-4 rounded-lg shadow flex items-center justify-between border-b py-4">
+  <div class="flex items-center space-x-4">
+    <img src="images/trouser1.png" alt="Product" class="w-16 h-16 rounded-md" />
+    <div>
+      <p class="font-semibold text-sm">Slim Fit Joggers</p>
+      <p class="text-gray-500 text-sm">Qty: 2</p>
+    </div>
+  </div>
+  <p class="font-bold text-sm">IDR 999.000</p>
+</div>
+  </div>
+
+  <!-- Total Summary -->
+  <div class="bg-white p-4 sticky bottom-0 shadow-inner flex justify-between items-center">
+    <p class="font-medium">Total Spent:</p>
+    <p class="text-red-600 font-bold">IDR 18.099.000</p>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+  <!-- Back Button -->
+  <div class="flex items-center w-full p-2 sticky top-0 bg-white shadow">
+    <div class="bg-white rounded-full shadow-md p-2"><a href="index.html"><img src="icons/arrow-left.svg" alt="first tab" class="w-4"></a></div>
+     <!-- Title -->
+  <h2 class="text-xl font-semibold mb- m-auto">My Cart</h2>
+  </div>
+  <!-- Item 1 -->
+<div class="w-full max-w-md  p-4 ">
+  <!-- Cart Item -->
+  <div class="shadow-md rounded-lg p-4 flex items-start justify-between">
+    <!-- Checkbox -->
+    <div class="">
+    <input type="checkbox" class="w-5 h-5"/>
+    </div>
+    
+    <!-- Product Info -->
+    <div class="flex items-center max-md:mr-2">
+      <!-- Image -->
+      <img src="images/watch.png" alt="Apple Watch" class="w-15" />
+    </div>
+
+    <div class="flex flex-col w-full pl-3 gap-2">
+      <!-- Text Info -->
+      <div>
+        <p class="text-gray-600 text-xs max-md:text-[10px]">Apple Watch Ultra 2 with Ocean Band</p>
+        <p class="text-black font-semibold text-sm max-md:text-[11px]">IDR 15.999.000</p>
+      </div>
+      <div class="flex items-center justify-between flex-row-reverse mt-2">
+        <div class="flex items-center space-x-3 mt-2">
+          <button class="w-4 h-4 border border-gray-400 rounded text-center text-red-400 leading-none text-sm shadow shadow-red-300">−</button>
+          <span>1</span>
+          <button class="w-4 h-4 border text-red-400 border-gray-400 rounded text-center leading-none text-sm shadow shadow-red-300">+</button>
+        </div>
+        <!-- Heart Icon -->
+     <div class="ml-4">
+      <span class="text-gray-400 text-xl"><img src="icons/love-svgrepo-com.svg" class="w-5"></span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- Item 2 -->
+<div class="w-full max-w-md  p-4 pt-0">
+  <!-- Cart Item -->
+  <div class="shadow-md rounded-lg p-4 flex items-start justify-between">
+    <!-- Checkbox -->
+    <div class="">
+    <input type="checkbox" class="w-5 h-5" />
+    </div>
+    
+    <!-- Product Info -->
+    <div class="flex items-center max-md:mr-2">
+      <!-- Image -->
+      <img src="images/cloth.png" alt="Apple Watch" class="w-24" />
+    </div>
+
+    <div class="flex flex-col w-full gap-2">
+      <!-- Text Info -->
+      <div>
+        <p class="text-gray-600 text-xs max-md:text-[10px]">Adicalor Neuclassics Men's Top</p>
+        <p class="text-black font-semibold text-sm max-md:text-[11px]">IDR 1.500.000</p>
+      </div>
+      <select name="" id="cloth" class="w-24 shadow rounded outline-none text-[10px] p-1">
+        <option value="White">White,M</option>
+        <option value="black">Black,M</option>
+        <option value="red">Red,M</option>
+      </select>
+      <div class="flex items-center justify-between flex-row-reverse mt-2">
+        <div class="flex items-center space-x-3 mt-2">
+          <button class="w-4 h-4 border border-gray-400 rounded text-center text-red-400 leading-none text-sm shadow shadow-red-300">−</button>
+          <span>1</span>
+          <button class="w-4 h-4 border text-red-400 border-gray-400 rounded text-center leading-none text-sm shadow shadow-red-300">+</button>
+        </div>
+        <!-- Heart Icon -->
+     <div class="ml-4">
+      <span class="text-gray-400 text-xl"><img src="icons/love-svgrepo-com.svg" class="w-5"></span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+     <!-- Item 3 -->
+<div class="w-full max-w-md  p-4 pt-0">
+  <!-- Cart Item -->
+  <div class="shadow-md rounded-lg p-4 flex items-start">
+    <!-- Checkbox -->
+    <div class="">
+    <input type="checkbox" class="w-5 h-5" />
+    </div>
+    
+    <!-- Product Info -->
+    <div class="flex items-center max-md:mr-2">
+      <!-- Image -->
+      <img src="images/trouser1.png" alt="Trouser" class="w-24" />
+    </div>
+
+    <div class="flex flex-col w-full">
+      <!-- Text Info -->
+      <div>
+        <p class="text-gray-600 text-xs max-md:text-[10px]">NBA Bulls Men's Jogger</p>
+        <p class="text-black font-semibold text-sm max-md:text-[11px]">IDR 15.999.000 <span class="text-[8px] text-red-700 bg-red-200 p-1 rounded-full">10% off</span></p>
+        <p class="text-gray-400 blur-[0.6px] font-semibold text-xs max-md:text-[11px]"><s>IDR 15.999.000 </s></p>
+      </div>
+      <select name="" id="trouser" class="w-24 shadow rounded outline-none text-[10px] h-6 mt-1">
+        <option value="White">White,M</option>
+        <option value="black">Black,M</option>
+        <option value="red">Red,M</option>
+      </select>
+      <div class="flex items-center justify-between flex-row-reverse mt-2">
+        <div class="flex items-center space-x-3 mt-2">
+          <button class="w-4 h-4 border border-gray-400 rounded text-center text-red-400 leading-none text-sm shadow shadow-red-300">−</button>
+          <span>1</span>
+          <button class="w-4 h-4 border text-red-400 border-gray-400 rounded text-center leading-none text-sm shadow shadow-red-300">+</button>
+        </div>
+        <!-- Heart Icon -->
+     <div class="ml-4">
+      <span class="text-gray-400 text-xl"><img src="icons/love-svgrepo-com.svg" class="w-5"></span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+     <!-- Item 4 -->
+<div class="w-full max-w-md  p-4 pt-0">
+  <!-- Cart Item -->
+  <div class="shadow-md rounded-lg p-4 flex items-start justify-between">
+    <!-- Checkbox -->
+    <div class="">
+    <input type="checkbox" class="w-5 h-5" />
+    </div>
+    
+    <!-- Product Info -->
+    <div class="flex items-center max-md:mr-2">
+      <!-- Image -->
+      <img src="images/trouser2.png" alt="Trouser" class="w-15" />
+    </div>
+
+    <div class="flex flex-col w-full pl-3 gap-2">
+      <!-- Text Info -->
+      <div>
+        <p class="text-gray-600 text-xs max-md:text-[10px]">NBA Bulls Men Trousers</p>
+        <p class="text-black font-semibold text-sm max-md:text-[11px]">IDR 15.999.000</p>
+      </div>
+      <select name="" id="trouser2" class="w-24 shadow rounded outline-none text-[10px] h-6 mt-1">
+        <option value="White">White,M</option>
+        <option value="black">Black,M</option>
+        <option value="red">Red,M</option>
+      </select>
+      <div class="flex items-center justify-between flex-row-reverse mt-2">
+        <div class="flex items-center space-x-3 mt-2">
+          <button class="w-4 h-4 border border-gray-400 rounded text-center text-red-400 leading-none text-sm shadow shadow-red-300">−</button>
+          <span>1</span>
+          <button class="w-4 h-4 border text-red-400 border-gray-400 rounded text-center leading-none text-sm shadow shadow-red-300">+</button>
+        </div>
+        <!-- Heart Icon -->
+     <div class="ml-4">
+      <span class="text-gray-400 text-xl"><img src="icons/love-svgrepo-com.svg" class="w-5"></span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+   <!-- Item 5 -->
+<div class="w-full max-w-md  p-4 pt-0">
+  <!-- Cart Item -->
+  <div class="shadow-md rounded-lg p-4 flex items-start justify-between">
+    <!-- Checkbox -->
+    <div class="">
+    <input type="checkbox" class="w-5 h-5" />
+    </div>
+    
+    <!-- Product Info -->
+    <div class="flex items-center max-md:mr-2">
+      <!-- Image -->
+      <img src="images/earbud.png" alt="Airpods" class="w-15" />
+    </div>
+
+    <div class="flex flex-col w-full pl-3 gap-2">
+      <!-- Text Info -->
+      <div>
+        <p class="text-gray-600 text-xs max-md:text-[10px]">Airpod Pro 2nd generation with USB-C</p>
+        <p class="text-black font-semibold text-sm max-md:text-[11px]">IDR 3.499.000 <span class="text-[8px] text-red-700 bg-red-200 p-1 rounded-full">10% off</span></p>
+         <p class="text-gray-400 blur-[0.6px] font-semibold text-xs max-md:text-[11px]"><s>IDR 4.299.000 </s></p>
+      </div>
+      <div class="flex items-center justify-between flex-row-reverse mt-2">
+        <div class="flex items-center space-x-3 mt-2">
+          <button class="w-4 h-4 border border-gray-400 rounded text-center text-red-400 leading-none text-sm shadow shadow-red-300">−</button>
+          <span>1</span>
+          <button class="w-4 h-4 border text-red-400 border-gray-400 rounded text-center leading-none text-sm shadow shadow-red-300">+</button>
+        </div>
+        <!-- Heart Icon -->
+     <div class="ml-4">
+      <span class="text-gray-400 text-xl"><img src="icons/love-svgrepo-com.svg" class="w-5"></span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+ <!-- Item 6 -->
+<div class="w-full max-w-md  p-4 pt-0">
+  <!-- Cart Item -->
+  <div class="shadow-md rounded-lg p-4 flex items-start justify-between">
+    <!-- Checkbox -->
+    <div class="">
+    <input type="checkbox" class="w-5 h-5" />
+    </div>
+    
+    <!-- Product Info -->
+    <div class="flex items-center max-md:mr-3">
+      <!-- Image -->
+      <img src="images/shoe5.png" alt="Canvas" class="w-24" />
+    </div>
+
+    <div class="flex flex-col w-full">
+      <!-- Text Info -->
+      <div>
+        <p class="text-gray-600 text-xs max-md:text-[10px]">Nike Junkey Men Canvas</p>
+        <p class="text-black font-semibold text-sm max-md:text-[11px]">IDR 9.989.000</p>
+      </div>
+      <div class="flex items-center justify-between flex-row-reverse mt-2">
+        <div class="flex items-center space-x-3 mt-2">
+          <button class="w-4 h-4 border border-gray-400 rounded text-center text-red-400 leading-none text-sm shadow shadow-red-300">−</button>
+          <span>1</span>
+          <button class="w-4 h-4 border text-red-400 border-gray-400 rounded text-center leading-none text-sm shadow shadow-red-300">+</button>
+        </div>
+        <!-- Heart Icon -->
+     <div class="ml-4">
+      <span class="text-gray-400 text-xl"><img src="icons/love-svgrepo-com.svg" class="w-5"></span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>     
+</div>
+<div class="fixed bottom-0 left-0 w-full bg-white shadow max-md:h-10 p-4 flex items-center justify-between">
+  <!-- Select All -->
+  <label class="flex items-center space-x-2 text-sm">
+    <input type="checkbox" class="w-4 h-4" />
+    <span class="text-xs">Select All</span>
+  </label>
+
+  <!-- Total and Checkout -->
+  <div class="flex items-center space-x-4">
+    <div class="text-left">
+      <p class="text-[8px] text-gray-500">Total</p>
+      <p class="text-black font-semibold text-xs">IDR 3.499.000</p>
+    </div>
+    <button class="bg-orange-500 text-white max-md:p-2 text-xs px-4 py-2 rounded-lg">Checkout</button>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Search Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="">
+
+  <!-- Sticky Top Nav -->
+  <div class="sticky top-0 bg-white z-10 md:sticky md:bg-white md:h-15 md:top-0 md:z-10 p-3 flex items-center space-x-3 h-15 flex items-center justify-between">
+     <div class="bg-white rounded-full shadow-md p-3"><a href="index.html"><img src="icons/arrow-left.svg" alt="first tab" class="w-4"></a></div>
+    <div class="search flex justify-between w-full shadow-md p-3 rounded-md">
+        <div class="flex w-full">
+            <img src="icons/search.svg" class="w-5 m-2">
+            <input type="text" placeholder="find your neeeded..." class="block placeholder:text-gray-500 font-verdana w-full md:w-full border-0 outline-none focus:outline-none" />
+        </div>
+        <img src="icons/filter-svgrepo-com.svg" class="w-5 ml-2">
+    </div>
+  </div>
+
+  <!-- Popular Search -->
+  <div class="p-4">
+    <h2 class="font-semibold mb-2">Popular Search</h2>
+    <div class="grid grid-cols-4 max-md:grid-cols-2 gap-2">
+      <div class="bg-white p-2 rounded shadow text-center flex items-center text-xs"><img src="images/watch2.png" alt="Fossil watch" class="w-10"> Fossil Watch</div>
+      <div class="bg-white p-2 rounded shadow text-center flex items-center text-xs"><img src="images/iphone-14-pro.png" alt="Fossil watch" class="w-10">iPhone 14 Pro</div>
+      <div class="bg-white p-2 rounded shadow text-center flex items-center text-xs"><img src="images/chair.png" alt="Fossil watch" class="w-10">Gaming Chair</div>
+      <div class="bg-white p-2 rounded shadow text-center flex items-center text-xs"><img src="images/shoe6.png" alt="Fossil watch" class="w-10">New Balance</div>
+    </div>
+  </div>
+
+  <!-- Recommend for You -->
+  <div class="p-4">
+    <h2 class="font-semibold mb-2">Recommend for You</h2>
+    <div class="grid grid-cols-2 gap-4">
+      <!-- Item Card 1 -->
+      <div class="bg-white p-2 rounded shadow">
+        <img src="images/cloth.png" alt="T-shirt" class="w-full rounded" />
+        <p class="max-md:text-[10px] text-sm mt-1">Uniqlo Basic T-shirt Oversized</p>
+        <p class="max-md:text-[10px] text-sm">White</p>
+        <p class="font-bold font-arial text-sm max-md:text-xs">IDR 200.000</p>
+        <p class="max-md:text-[8px] text-xs text-gray-500">⭐ 4.9 · 918 sold</p>
+        <p class="max-md:text-[8px] text-xs text-gray-500 flex items-center"><span class="mr-1"><img src="icons/location-dot.svg" alt="Location" class="w-2"></span> Surabaya</p>
+      </div>
+      <!-- Item Card 2 -->
+      <div class="bg-white p-2 rounded shadow relative flex flex-col justify-end">
+        <span class="absolute top-2 right-2 bg-red-300 text-red-800 font-bold text-sm max-md:text-[7px] px-1 rounded-full">15% off</span>
+        <img src="images/shoe5.png" alt="Shoes" class="w-full rounded mb-9 max-md:mb-2" />
+        <p class="text-sm max-md:text-[10px] mt-1">New Balance 550 Men’s</p>
+        <p class="text-sm max-md:text-[10px] ">Sneakers Shoe-Breige</p>
+        <p class="font-bold font-arial text-sm max-md:text-xs">IDR 1.792.650</p>
+        <p class="font-bold font-arial text-gray-400 text-xs max-md:text-[10px]"><s>IDR 1.219.000</s></p>
+        <p class="max-md:text-[8px] text-xs text-gray-500">⭐ 4.9 · 814 sold · </p>
+        <p class="max-md:text-[8px] text-xs text-gray-500 flex items-center"><span class="mr-1"><img src="icons/location-dot.svg" alt="Location" class="w-2"></span>Malang</p>
+      </div>
+      <!-- Item Card 3 -->
+      <div class="bg-white p-2 rounded shadow relative flex flex-col justify-end">
+        <span class="absolute top-2 right-2 bg-red-300 text-red-800 font-bold text-sm max-md:text-[7px] px-1 rounded-full">7% off</span>
+        <img src="images/watch.png" alt="Shoes" class="w-full sm:w-80 rounded mb-9 max-md:mb-2" />
+        <p class="text-sm max-md:text-[10px] mt-1 leading-none">Apple Watch Ultra 2 with Alpine Loop</p>
+        <p class="text-sm max-md:text-[10px] ">Brown</p>
+        <p class="font-bold font-arial text-sm max-md:text-xs">IDR 15.956.650</p>
+        <p class="font-bold font-arial text-gray-400 text-xs max-md:text-[10px]"><s>IDR 16.316.000</s></p>
+        <p class="max-md:text-[8px] text-xs text-gray-500">⭐ 4.9 · 912 sold · </p>
+        <p class="max-md:text-[8px] text-xs text-gray-500 flex items-center"><span class="mr-1"><img src="icons/location-dot.svg" alt="Location" class="w-2"></span>Maganda</p>
+      </div>
+      <!-- Item Card 4 -->
+      <div class="bg-white p-2 rounded shadow">
+        <img src="images/trouser2.png" alt="T-shirt" class="w-full rounded" />
+        <p class="max-md:text-[10px] text-sm mt-1">Nike Dri-FIT academy Woven</p>
+        <p class="max-md:text-[10px] text-sm">Black</p>
+        <p class="font-bold font-arial text-sm max-md:text-xs">IDR 300.000</p>
+        <p class="max-md:text-[8px] text-xs text-gray-500">⭐ 4.9 · 918 sold</p>
+        <p class="max-md:text-[8px] text-xs text-gray-500 flex items-center"><span class="mr-1"><img src="icons/location-dot.svg" alt="Location" class="w-2"></span> Varosha</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
